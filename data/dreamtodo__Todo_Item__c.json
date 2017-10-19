@@ -1,0 +1,22 @@
+{
+    "records": [
+        {
+            "attributes": {
+                "type": "dreamtodo__Todo_Item__c",
+                "referenceId": "dreamtodo__Todo_Item__cRef1"
+            },
+            "Name": "Fly to San Francisco",
+            "dreamtodo__Due_Date__c": "2017-11-05",
+            "dreamtodo__Is_Done__c": true
+        },
+        {
+            "attributes": {
+                "type": "dreamtodo__Todo_Item__c",
+                "referenceId": "dreamtodo__Todo_Item__cRef2"
+            },
+            "Name": "Attend Salesforce for Developers Keynote",
+            "dreamtodo__Due_Date__c": "2017-11-07",
+            "dreamtodo__Is_Done__c": true
+        }
+    ]
+}

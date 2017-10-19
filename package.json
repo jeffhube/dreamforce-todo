@@ -1,0 +1,19 @@
+{
+  "name": "dreamforce-todo",
+  "version": "1.0.0",
+  "description": "## Dev, Build and Test",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "chromedriver": "2.33.1",
+    "gulp": "3.9.1",
+    "gulp-nightwatch": "0.3.2",
+    "gulp-shell": "0.6.3",
+    "gulp-watch": "4.3.11",
+    "nightwatch": "0.9.16",
+    "selenium-server-standalone-jar": "3.6.0"
+  },
+  "scripts": {},
+  "author": "",
+  "license": "ISC"
+}

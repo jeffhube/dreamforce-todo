@@ -1,0 +1,15 @@
+<aura:component>
+    <aura:attribute name="task" type="dreamtodo__Todo_Item__c" required="true" />
+    <aura:registerEvent name="onchange" type="c:TodoUpdateEvent" />
+    <tr>
+        <td data-label="Complete">
+            <ui:inputCheckbox value="{!v.task.dreamtodo__Is_Done__c}" change="{!c.onchange}" />
+        </td>
+        <td data-label="Task">
+            <div class="slds-truncate" title="{!v.task.Name}">{!v.task.Name}</div>
+        </td>
+        <td data-label="Due Date">
+            <ui:outputDate value="{!v.task.dreamtodo__Due_Date__c}" />
+        </td>
+    </tr>
+</aura:component>

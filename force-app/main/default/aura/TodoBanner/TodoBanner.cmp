@@ -1,0 +1,5 @@
+<aura:component implements="flexipage:availableForAllPageTypes" access="global">
+    <lightning:card>
+        <img src="{!$Resource.dreamforce}" />
+    </lightning:card>
+</aura:component>	
