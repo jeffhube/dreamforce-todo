@@ -6,7 +6,7 @@
             Tasks
         </aura:set>
         <aura:set attribute="actions">
-            <!--<lightning:button label="New" onclick="{!c.newItem}" />-->
+            <lightning:button label="New" onclick="{!c.newItem}" />
         </aura:set>
         <table class="slds-table slds-table_bordered slds-table_cell-buffer">
             <thead>
